@@ -1,15 +1,185 @@
 <!DOCTYPE html>
-<html class="page" lang="ru">
+<html class="index-page" lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CCS/Index.css">
     <title>Document</title>
 </head>
-<body class="page__body">
-<header class="main-header">
-<a class="main-header__logo" href="" ><img src="" alt="Логотип БардерШопа"></a>
+<body class="index-page__body">
+<header class="index-page__header main-header">
+<a class="main-header__logo" href="" ><img src="" alt="Логотип БардерШопа" width="226px" height="30px"></a>
+<nav class="main-header__nav">
+<button class="nav__headling button-brown" type="button">Главная</button>
+<button class="nav__toggle-button" type="button"><span class="visually-hidden">Активировать меню</span></button>
+<div class="nav__wrapper">
+ <ul class="nav__site-list">
+     <li class="nav__site-item"><a href=""><span class="nav__title">Главная</span></a></li>
+     <li class="nav__site-item"><a href=""><span class="nav__title">Наши работы</span></a></li>
+     <li class="nav__site-item"><a href=""><span class="nav__title">Записаться</span></a></li>
+     <li class="nav__site-item"><a href=""><span class="nav__title">Контакты</span></a></li>
+     <li class="nav__site-item"><a href=""><span class="nav__title">HTML Academy</span></a></li>
+ </ul>
+ <ul class="nav__user-menu-list">
+     <li class="nav__user-menu-item user-menu-item visually-hidden">Личный кабинет</li>
+     <li class="nav__user-menu-item user-menu-item ">Войти</li>
+ </ul>
+</div>
+</nav>
 </header>
+<main class="index-page__main">
+    <h1 class="visually-hidden">Барбершоп Бородинский</h1>
+    <section class="stats">
+         <header class="stats__header statistic-headling-block">
+             <h2 class="visually-hidden">Статистика Барбершопа</h2>
+            <p class="stats__slogan">Стрижка у нас
+                это выгодно!</p>
+            <p class="stats__intro">Мужская стрижка требует точного подхода. Обратимся к статистике:</p>
+        </header>
+        <ul class="stats__list">
+            <li class="stats__item">
+                <div class="stats__number">1 500</div>
+                <div class="stats__description">рублей
+                    вложений</div>
+            </li>
+            <li class="stats__item">
+                <div class="stats__number">7 200</div>
+                <div class="stats__description">секунд
+                    времени мастера</div>
+            </li>
+            <li class="stats__item">
+                <div class="stats__number">90 000</div>
+                <div class="stats__description">постриженных
+                    волос</div>
+            </li>
+            <li class="stats__item">
+                <div class="stats__number">500 000</div>
+                <div class="stats__description">лайков и
+                    комплиментов</div>
+            </li>
+        </ul>
+    </section>
+    <section class="advantages">
+        <h2 class="visually-hidden">Преимущенства барбершопа Бородинский</h2>
+        <div class="advantages__wraper slider">
+            <article class="advantages__item advantages-card">
+                <small>* — приведённые данные ложь</small>
+                <div class="advantages__icon">
+                    <img src="" alt="Иконка ножниц" width="95px" height="94px">
+                    <h3>Быстро</h3>
+                    <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и Вы — счастливый обладатель стильной стрижки-минутки</p>
+                    
+            </article>
+            <article class="advantages__item advantages-card visually-hidden">
+                <small>* — приведённые данные ложь</small>
+                <div class="advantages__icon">
+                    <img src="" alt="Иконка парикмахерского кресла" width="95px" height="94px">
+                    <h3>Круто</h3>
+                    <p>Забудьте, как вы стриглись раньше. Мы сделаем из Вас звезду футбола или кино. 
+                        Во всяком случае внешне.</p>
+                    
+            </article>
+            <article class="advantages__item advantages-card visually-hidden">
+                <small>* — приведённые данные ложь</small>
+                <div class="advantages__icon">
+                    <img src="" alt="Иконка парикмахерского столбика/леденца" width="95px" height="94px">
+                    <h3>Дорого</h3>
+                    <p>Наши мастера — профессионалы своего дела и не могут стоить дёшево. К тому же, разве цена не даёт определённый статус?</p>
+                    
+            </article> 
+            <div class="slider__toggle-wrap">
+                <ul class="toogle-list">
+                    <li class="toogle-list__item"><button class="toggle__button--active" type="button"></button></li>
+                    <li class="toogle-list__item"><button class="toggle__button" type="button"></button></li>
+                    <li class="toogle-list__item"><button class="toggle__button" type="button"></button></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="decoration-wrap"><img src="" alt="Два декоративных треугольника"></div>
+    </section>
+    <section class="news">
+        <div class="news__wrap">
+            <h2 class="news-headling">Новости и акции</h2>
+            <ul class="news-list">
+                <li><article class="news-item">
+                    <div class="date-wrap">
+                    <span class="day-date">29</span>
+                    <span class="month">сент</span>
+                    <div class="decorate-date-wrap"></div>
+                    </div>
+                    <p class="news-description">
+                        Нам наконец завезли <br> Ягермайстер! Теперь вы можете<br> пропусить стаканчик во время<br> стрижки.
+                    </p>
+                </article></li>
+                <li><article class="news-item">
+                    <div class="date-wrap">
+                        <span class="day-date">19</span>
+                        <span class="month">сент</span>
+                        <div class="decorate-date-wrap"></div>
+                      
+                    </div>
+                    <p class="news-description">
+                        В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды. Спешите записаться!
+                    </p>
+                </article></li>
+            </ul>
+        </div>
+        <a href="" class="button news__button">Показать все</a>
+    </section>
+    <section class="rewiew">
+        <div class="rewiew__wrap">
+            <h2>Отзывы о нас</h2>
+            <div class="rewiew__body slider rewiew__body--active">
+                <div class="foto-wrap"><img src="" alt="Фото Тревиса Баркера width50px" width="50px" height="50px"></div>
+                <div class="rewiew__text-wrap">
+                    <h3 class="rewiew-cient-name">Тревис Баркер</h3>
+                    <p class="text-rewiew">Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!</p>
+                </div>
+            </div>
+            <div class="rewiew__body slider ">
+                <div class="foto-wrap"><img src="" alt="Фото Тревиса Баркера width50px" width="50px" height="50px"></div>
+                <div class="rewiew__text-wrap">
+                    <h3 class="rewiew-cient-name">Тревис Баркер</h3>
+                    <p class="text-rewiew">Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!</p>
+                </div>
+            </div>
+            <div class="rewiew__body slider">
+                <div class="foto-wrap"><img src="" alt="Фото Тревиса Баркера width50px" width="50px" height="50px"></div>
+                <div class="rewiew__text-wrap">
+                    <h3 class="rewiew-cient-name">Тревис Баркер</h3>
+                    <p class="text-rewiew">Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!</p>
+                </div>
+            </div>
+            <div class="slider-tongle-wrap rewiew__slider-tongle-wrap">
+                <div class="tongle-item"><button class="tongle-button--active"></button></div>
+                <div class="tongle-item"><button class="tongle-button"></button></div>
+                <div class="tongle-item"><button class="tongle-button"></button></div>
+            </div>
+        </div>
+        <div class="decoration-wrap"><img src="" alt="Два декоративных треугольника"></div>
+    </section>
+    <footer class="index-page__footer main-footer">
+        <article class="main-footer__contacts">
+            <h3>Барбершоп Бородинский</h3>
+            <address>
+                <p>г. Санкт-Петербург, ул. Большая Конюшенная 19/8</p>
+                <a href="tel:+78125559999">+7 (812) 555-99-99"</a>
+            </address>
+        </article>
+        <article class="main-footer__social">
+            <ul class="main-footer__social-ist">
+                <li class="main-footer__social-item"><a href="" class="social-icon" aria-label="Иконка Вконтакте"></a></li>
+                <li class="main-footer__social-item"><a href="" class="social-icon" aria-label="Иконка Фейсбук"></a></li>
+                <li class="main-footer__social-item"><a href="" class="social-icon" aria-label="Иконка Инстаграмм"></a></li>
+            </ul>
+        </article>
+        <article class="main-footer__copyright">
+            <p class="copyryght-text">Разработано:</p>
+            <a href="" class="copyright-company">HTML Academy</a>
+        </article>
+    </footer>
+</main>
     
 </body>
 </html>
